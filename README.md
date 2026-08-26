@@ -78,7 +78,7 @@ This highlights the importance of evaluating models beyond accuracy in imbalance
 Interpretation:
 
 - Each additional admission increases the odds of stress by ~4%.
-- Longer length of stay slightly decreases odds in this synthetic setup.
+- In this synthetic dataset, longer average length of stay is associated with lower predicted odds of capacity stress. This counterintuitive result reflects the simulation and model specification and should not be interpreted as a real-world healthcare relationship.
 - Results are influenced by the synthetic data structure.
 
 ---
